@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decoration</title>
+
+    <style>
+      :root {
+        --primary-color: #b91c1c;
+        --dark-color: #1f2937;
+        --light-bg: #ffffff;
+      }
+
+      body {
+        
+      }
+
+      h1 {
+      }
+
+      h2 {
+      }
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        border: 1px solid #e7e7ee;
+        background-color: #f3f3f3;
+        padding: 0;
+        margin: 0;
+      }
+
+      ul li {
+        float: left;
+      }
+
+      ul li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      ul li a:hover {
+        background-color: white;
+      }
+
+      /* Section 1: We design digital products */
+      .digital-products-section {
+        padding: 100px 0 80px 0;
+        text-align: center;
+      }
+
+      .section-title {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: #222;
+        margin-bottom: 15px;
+      }
+
+      .section-wave {
+        font-size: 1.2rem;
+        color: #bbb;
+        margin-bottom: 25px;
+        line-height: 1;
+      }
+
+      .section-desc {
+        max-width: 600px;
+        margin: 0 auto 60px auto;
+        font-size: 0.95rem;
+        color: #666;
+        line-height: 1.8;
+        font-weight: 300;
+      }
+
+      .feature-box {
+        padding: 20px;
+      }
+
+      .feature-icon-wrap {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .feature-title {
+        font-size: 0.75rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #333;
+      }
+
+      /* Section 2: Dark Experience & Logos */
+
+      .dark-experience-section {
+        background-color: #1a1a1a;
+        color: #fff;
+        padding: 90px 0;
+      }
+
+      .dark-experience-section .section-title {
+        color: #fff;
+      }
+
+      .dark-experience-section .section-desc {
+        color: #aaa;
+        margin-bottom: 40px;
+        text-align: left;
+      }
+
+      .btn-outline-custom {
+        border: 1px solid #fff;
+        color: #fff;
+        background: transparent;
+        padding: 10px 25px;
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 0;
+        transition: all 0.3s;
+      }
+
+      .btn-outline-custom:hover {
+        background: #fff;
+        color: #1a1a1a;
+      }
+
+      .logo-item {
+        text-align: center;
+        padding: 20px;
+        color: #ccc;
+        font-family: "Playfair Display", serif;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        border: 1px dashed rgba(255, 255, 255, 0.1);
+        transition: color 0.3s;
+      }
+
+      .logo-item:hover {
+        color: #fff;
+      }
+
+      /* Quote Section */
+      .quote-section {
+        padding: 80px 0;
+        background-color: #fff;
+        text-align: center;
+      }
+
+      .quote-text {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-size: 1.15rem;
+        color: #555;
+        max-width: 750px;
+        margin: 0 auto 20px auto;
+        line-height: 1.6;
+      }
+
+      .quote-author {
+        font-size: 0.75rem;
+        letter-spacing: 2px;
+        color: #999;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+      }
+
+      .carousel-dots span {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: #ddd;
+        border-radius: 50%;
+        margin: 0 4px;
+        cursor: pointer;
+      }
+
+      .carousel-dots span.active {
+        background: #555;
+        width: 20px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header class="hero"
+    <h1>MINIMUM</h1>
+    <h2>Decoration</h2>
+    <h2>Developpement</h2>
+    <h2>succes</h2>
+    <p style="background-image: url("snowy-mountains-peaks-clouds-blue-sky-caucasus_465722-644.avif"></p>
+  </header>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-minimal sticky-top">
+      <div class="container justify-content-center">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#minimalNavbar"
+          aria-controls="minimalNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="minimalNavbar"
+        >
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Apropos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Contact</a>
+            </li>
+            <li class="nav-item d-none d-lg-flex alin-items-center">
+              <div class="navbar-brand-box">T</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- We design digital products  -->
+    <section class="digital-products-section" id="services">
+      <div class="container">
+        <h2 class="section-title">Nous créeons des formations digitaux </h2>
+        <div class="section-wave">&#12359;&#12359;&#12359;</div>
+        <p class="section-desc">
+          Ta marque,Ton produit, Ton idée... est notre objectif. Nous
+          croyosn en la creation d'opportunités pour la marque Elite, des startups intrèpides,
+          et des innovations pationates pour changer le monde.
+        </p>
+
+        <div class="row mt-5">
+          <div class="col-6 col-md-3 feature-box">
+            <div class="feature-icon-wrap">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <div class="feature-title">Idée</div>
+          </div>
+          <div class="col-6 col-md-3 feature-box">
+            <div class="feature-icon-wrap">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <div class="feature-title">Design</div>
+          </div>
+          <div class="col-6 col-md-3 feature-box">
+            <div class="feature-icon-wrap">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="feature-title">Developpement</div>
+          </div>
+          <div class="col-6 col-md-3 feature-box">
+            <div class="feature-icon-wrap">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="feature-title">Succes</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+ Dark Experience Section -->
+    <section class="dark-experience-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-5 mb-lg-0">
+            <h2 class="section-title">
+              Nous créeons des expériences digitaux délicieuses
+            </h2>
+            <p class="section-desc">
+              Nous aidons  les entreprises à améliorer leurs site web et de créer  des excitants nouveaux produits<pre></pre>.<br /><br />
+              Nous combinons une approche unique avec nos connaissances humaines
+              l'expériences utilisateur est centré vers l'utilisateur.
+            </p>
+            <a href="#contact" class="btn btn-outline-custom">Contactez-nous</a>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-4">
+              <div class="col-4">
+                <div class="logo-item">
+                  Chris angeles<br /><small
+                    style="font-size: 0.5rem; letter-spacing: 2px"
+                    >Depuis 1963</small
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="logo-item">
+                  CUBANO<br /><small
+                    style="font-size: 0.5rem; letter-spacing: 2px"
+                    >Club de cigare </small
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="logo-item">
+                  Cote pacifique <br /><small
+                    style="font-size: 0.5rem; letter-spacing: 1px"
+                    >&mdash; Original &mdash;</small
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="logo-item">
+                  Cote pacific<br /><small
+                    style="font-size: 0.5rem; letter-spacing: 1px"
+                    >&mdash; Original &mdash;</small
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="logo-item">
+                  Pompadour<br /><small
+                    style="font-size: 0.5rem; letter-spacing: 1px"
+                    >Depuis 1992</small
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="logo-item">
+                  VINTAGE<br /><small
+                    style="font-size: 0.5rem; letter-spacing: 1px"
+                    >APPAREL COMPANY</small
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="logo-item">
+                  Boulangerie<br /><small
+                    style="font-size: 0.5rem; letter-spacing: 1px"
+                    >Boulanger </small
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="logo-item">
+                  CUBANO<br /><small
+                    style="font-size: 0.5rem; letter-spacing: 1px"
+                    >DEPUIS 1992</small
+                  >
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="logo-item">
+                  Chris angeles<br /><small
+                    style="font-size: 0.5rem; letter-spacing: 2px"
+                    >DEPUIS 1963</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
